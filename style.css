@@ -11,7 +11,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     height: 25vh;
-    background-color: #000;
+    background-color: #1d1c1c;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -61,7 +61,7 @@ ul li a{
     width: 175px;
     height: 30px;
     border-radius: 10px;
-    background-color: #000;
+    background-color: #1d1c1c;
     color: #fff;
     font-size: medium;
     font-weight: bold;
@@ -70,7 +70,7 @@ ul li a{
 }
 
 .works-button{
-    color: black;
+    color: #1d1c1c;
     background-color: rgb(199, 199, 71);
 }
 
@@ -93,7 +93,121 @@ ul li a{
     text-align: center;
     gap: 15px;
     padding: 50px;
-    background-color: #000;
+    background-color: #1d1c1c;
     color: #fff;
     font-family: 'Poppins', sans-serif;
 }
+
+/* Cards section*/
+
+.benefits{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.benefits-text{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.benefits-card{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    justify-content: center;
+}
+
+.card{
+    width: 25%;
+    height: 300px;
+    background-color: rgb(197, 197, 197);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+    background-color: #1d1c1c;
+    color: #fff;
+}
+
+/* Contact */
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    background-color: #1d1c1c;
+    color: #fff;
+}
+
+.contact-info{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-names{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+
+}
+
+
+.person ol{
+    list-style: none;
+}
+
+.person ol li{
+    margin: 20px;
+}
+
+.contact-img{
+    width: 40%;
+}
+
+.map-img{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    border: #1d1c1c 2px solid;
+}
+
+.contact-media-buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-top: 25px;
+}
+
+/* Footer */
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer-logo {
+    height: 50px;
+}
+
+.footer-copyright {
+    font-size: 12px;
+}
+
