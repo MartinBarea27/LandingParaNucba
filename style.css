@@ -10,7 +10,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 25vh;
+    height: 14vh;
     background-color: #1d1c1c;
     font-family: 'Poppins', sans-serif;
 }
@@ -40,6 +40,13 @@ ul li a{
     height: 40px;
     margin: 20px;
 }
+
+.toggle-menu{
+    display: none;
+}
+
+#toggle-menu{
+    display: none;}
 
 /* BODY */
 
@@ -211,3 +218,103 @@ ul li a{
     font-size: 12px;
 }
 
+
+/* Media Queries */
+
+@media (max-width: 992px){
+
+    .container-info{
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .container-img{
+        display: none;
+    }
+
+    .benefits-card{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card{
+        width: 60%;
+    }
+
+    .toggle-menu{
+        display: none;
+    }
+
+    #toggle-menu{
+        display: none;}
+
+}
+
+@media (max-width: 768px){
+    
+
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    ul{
+        display: none;
+        justify-content: space-around;
+        flex-direction: column;
+        position: absolute;
+        gap: 30px;
+        width: 100%;
+        height: calc(100vh - 14vh);
+        list-style: none;
+        font-size: x-large;
+        align-items: center;
+        background-color: rgb(70, 70, 70);
+        top: 14vh;
+        left: 0;
+        
+        
+    }
+    
+    ul li a{
+        text-decoration: none;
+        color: #fff;
+    }
+    
+
+    .contact{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-info{
+        width: 100%;
+    }
+
+    .map-img{
+        display: none;
+    }
+
+    .toggle-menu{
+        display: flex;
+        position: relative;
+        right: 30px;
+        
+    }
+
+    #toggle-menu:checked ~ ul{
+        display: flex;
+    } 
+    
+
+
+}
+
+@media (max-width: 576px){
+    .nav{
+        flex-direction: column;
+        align-items: center;
+    }
+}
